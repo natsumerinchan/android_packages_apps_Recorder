@@ -33,5 +33,5 @@ jobs:
     - name: Upload debug artifact
       uses: actions/upload-artifact@v3
       with:
-        name: MRepo
+        name: Recorder
         path: app/build/outputs/apk/debug/*.apk
